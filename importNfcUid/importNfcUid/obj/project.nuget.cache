@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TebccGsDpzWBMDvh1UfMrJvzjT5wgzqOUo1x0IBQ/VJXUEe92X3lsMjcQsn5FKnf7l0xIus0V5UR5DaEz+brIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sur\\OneDrive - Education Vaud\\Gymnase de Renens\\Scripts\\importNfcUid\\importNfcUid\\importNfcUid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc\\6.1.3\\pcsc.6.1.3.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc.iso7816\\6.1.3\\pcsc.iso7816.6.1.3.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc.reactive\\6.1.3\\pcsc.reactive.6.1.3.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

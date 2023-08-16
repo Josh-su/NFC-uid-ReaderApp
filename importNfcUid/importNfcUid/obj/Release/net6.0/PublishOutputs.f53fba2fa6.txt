@@ -1,0 +1,9 @@
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\importNfcUid.exe
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\importNfcUid.dll
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\importNfcUid.deps.json
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\importNfcUid.runtimeconfig.json
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\importNfcUid.pdb
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\PCSC.dll
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\PCSC.Iso7816.dll
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\PCSC.Reactive.dll
+C:\Users\sur\OneDrive - Education Vaud\Gymnase de Renens\Scripts\importNfcUid\importNfcUid\bin\publish\System.Reactive.dll

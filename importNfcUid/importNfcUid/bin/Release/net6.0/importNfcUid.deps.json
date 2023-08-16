@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "importNfcUid/1.0.0": {
+        "dependencies": {
+          "PCSC": "6.1.3",
+          "PCSC.Iso7816": "6.1.3",
+          "PCSC.Reactive": "6.1.3"
+        },
+        "runtime": {
+          "importNfcUid.dll": {}
+        }
+      },
+      "PCSC/6.1.3": {
+        "runtime": {
+          "lib/net6.0/PCSC.dll": {
+            "assemblyVersion": "6.1.3.0",
+            "fileVersion": "6.1.3.0"
+          }
+        }
+      },
+      "PCSC.Iso7816/6.1.3": {
+        "dependencies": {
+          "PCSC": "6.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "assemblyVersion": "6.1.3.0",
+            "fileVersion": "6.1.3.0"
+          }
+        }
+      },
+      "PCSC.Reactive/6.1.3": {
+        "dependencies": {
+          "PCSC": "6.1.3",
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Reactive.dll": {
+            "assemblyVersion": "6.1.3.0",
+            "fileVersion": "6.1.3.0"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "importNfcUid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PCSC/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Owbrhae5DAFUgg1gKiRNPjoG3Lr8FdsmlZl6RZnqs+QlWjZQr/2gzY6zYOiBa3L9H1UhMCqxL4I/yvaldelP/g==",
+      "path": "pcsc/6.1.3",
+      "hashPath": "pcsc.6.1.3.nupkg.sha512"
+    },
+    "PCSC.Iso7816/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fT9Jy+gNOOvZW1Gbyg38gc0pXNxaqachH2ssUvwkCocppQZONyiFrUkrezIokzDnVIZQWAiLEQzlrxFLNVU7mA==",
+      "path": "pcsc.iso7816/6.1.3",
+      "hashPath": "pcsc.iso7816.6.1.3.nupkg.sha512"
+    },
+    "PCSC.Reactive/6.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q4vNyvSHkMMv6Zm05bh8RJIHxmeiPfjcGgjMpi4I9AZUA2Wi7d7U3F5kmWuNVB8aByAPHTl5UVmaM2kv5F2NZQ==",
+      "path": "pcsc.reactive/6.1.3",
+      "hashPath": "pcsc.reactive.6.1.3.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    }
+  }
+}
