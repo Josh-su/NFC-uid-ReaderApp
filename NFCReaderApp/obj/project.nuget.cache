@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "n1SKKgOym4g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sur\\source\\repos\\NFCReaderApp\\NFCReaderApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sur\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.1.0\\hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc\\7.0.0\\pcsc.7.0.0.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc.iso7816\\7.0.0\\pcsc.iso7816.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
