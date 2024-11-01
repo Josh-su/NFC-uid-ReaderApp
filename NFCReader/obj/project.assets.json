@@ -1,0 +1,164 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "PCSC/6.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/PCSC.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/PCSC.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "PCSC.Iso7816/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "PCSC": "6.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PCSC/6.2.0": {
+      "sha512": "LchYKEUOZ2eRFPopsBBUQ22AYleb8HMDJccsEx04eyltwI3NArqjSSClW4IXShztyNCiohedVbuqLpr79gvUxA==",
+      "type": "package",
+      "path": "pcsc/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/net6.0/PCSC.dll",
+        "lib/net6.0/PCSC.pdb",
+        "lib/net6.0/PCSC.xml",
+        "lib/net7.0/PCSC.dll",
+        "lib/net7.0/PCSC.pdb",
+        "lib/net7.0/PCSC.xml",
+        "lib/net8.0/PCSC.dll",
+        "lib/net8.0/PCSC.pdb",
+        "lib/net8.0/PCSC.xml",
+        "lib/netstandard2.0/PCSC.dll",
+        "lib/netstandard2.0/PCSC.pdb",
+        "lib/netstandard2.0/PCSC.xml",
+        "pcsc-sharp.png",
+        "pcsc.6.2.0.nupkg.sha512",
+        "pcsc.nuspec"
+      ]
+    },
+    "PCSC.Iso7816/6.2.0": {
+      "sha512": "ZdTjOgFOQeRbay54DkIL3+rVYE1qb9kbYOos9svpSzToTsbdFDeRHXAz3ONtiArEWgMfJuJZRiUwSPAS/ygQng==",
+      "type": "package",
+      "path": "pcsc.iso7816/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/netstandard2.0/PCSC.Iso7816.dll",
+        "lib/netstandard2.0/PCSC.Iso7816.pdb",
+        "lib/netstandard2.0/PCSC.Iso7816.xml",
+        "pcsc-sharp.png",
+        "pcsc.iso7816.6.2.0.nupkg.sha512",
+        "pcsc.iso7816.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "PCSC >= 6.2.0",
+      "PCSC.Iso7816 >= 6.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sur\\source\\repos\\NFCReader\\NFCReader.csproj",
+      "projectName": "NFCReader",
+      "projectPath": "C:\\Users\\sur\\source\\repos\\NFCReader\\NFCReader.csproj",
+      "packagesPath": "C:\\Users\\sur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sur\\source\\repos\\NFCReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "PCSC": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          },
+          "PCSC.Iso7816": {
+            "target": "Package",
+            "version": "[6.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

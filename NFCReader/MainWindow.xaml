@@ -1,0 +1,58 @@
+﻿<Window x:Class="NFCReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NFCReader"
+        mc:Ignorable="d"
+        Title="NFC UID Reader" Height="452" Width="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <!-- For User Name label -->
+            <RowDefinition Height="*"/>
+            <!-- For User Name input grid -->
+            <RowDefinition Height="Auto"/>
+            <!-- For logs -->
+            <RowDefinition Height="Auto"/>
+            <!-- For Reader status -->
+            <RowDefinition Height="Auto"/>
+            <!-- For buttons -->
+            <RowDefinition Height="Auto"/>
+            <!-- For current file label -->
+        </Grid.RowDefinitions>
+        <Label Content="NFC UID Reader" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="0"/>
+        <TextBlock Text="Card UID:" Margin="10,10,0,0" Grid.Row="1"/>
+        <TextBox Name="txtUID" IsReadOnly="True" Margin="0,5,0,10" Height="25" Grid.Row="2"/>
+
+        <!-- User Name Label -->
+        <TextBlock Text="User Name:" Margin="10,5,0,0" Grid.Row="3"/>
+
+        <!-- User Name Input and Save Button -->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBox Name="txtUserName" Height="25" IsEnabled="False" Grid.Column="0" VerticalAlignment="Center" />
+            <Button x:Name="btnSaveUID" Content="Save UID" Width="111" Height="30" Click="btnSaveUID_Click" IsEnabled="False" Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" />
+        </Grid>
+
+        <TextBlock Text="Logs:" Grid.Row="5" Margin="10,5,0,0"/>
+        <TextBox Name="txtlogs" IsReadOnly="True" Margin="0,5,0,10" Height="100" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.Row="6"/>
+        <Label Name="lblReaderStatus" Content="Reader Status:" Grid.Row="7" Margin="10,5,0,0" VerticalAlignment="Center"/>
+
+        <!-- Buttons for TSV creation and opening directory -->
+        <StackPanel Orientation="Horizontal" Grid.Row="8" HorizontalAlignment="Center" Margin="10">
+            <Button Name="btnCreateNewTsv" Content="Create New TSV File" Width="150" Height="30" Click="btnCreateNewTsv_Click" />
+            <Button Name="btnOpenTsvDirectory" Content="Open TSV Directory" Width="150" Height="30" Click="btnOpenTsvDirectory_Click" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <!-- Current TSV File Label -->
+        <Label Name="lblCurrentFile" Content="Current TSV File:" Margin="0,10,0,0" HorizontalAlignment="Center" Grid.Row="9"/>
+    </Grid>
+</Window>

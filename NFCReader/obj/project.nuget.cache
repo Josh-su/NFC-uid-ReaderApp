@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BbO9sKAZdDU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sur\\source\\repos\\NFCReader\\NFCReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc\\6.2.0\\pcsc.6.2.0.nupkg.sha512",
+    "C:\\Users\\sur\\.nuget\\packages\\pcsc.iso7816\\6.2.0\\pcsc.iso7816.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,7 +1,0 @@
-C:\Users\sur\OneDrive - Education Vaud\Bureau\NFCReaderApp.pdb
-C:\Users\sur\OneDrive - Education Vaud\Bureau\D3DCompiler_47_cor3.dll
-C:\Users\sur\OneDrive - Education Vaud\Bureau\PenImc_cor3.dll
-C:\Users\sur\OneDrive - Education Vaud\Bureau\PresentationNative_cor3.dll
-C:\Users\sur\OneDrive - Education Vaud\Bureau\vcruntime140_cor3.dll
-C:\Users\sur\OneDrive - Education Vaud\Bureau\wpfgfx_cor3.dll
-C:\Users\sur\OneDrive - Education Vaud\Bureau\NFCReaderApp.exe

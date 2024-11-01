@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NFCReader/1.0.0": {
+        "dependencies": {
+          "PCSC": "6.2.0",
+          "PCSC.Iso7816": "6.2.0"
+        },
+        "runtime": {
+          "NFCReader.dll": {}
+        }
+      },
+      "PCSC/6.2.0": {
+        "runtime": {
+          "lib/net8.0/PCSC.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        }
+      },
+      "PCSC.Iso7816/6.2.0": {
+        "dependencies": {
+          "PCSC": "6.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PCSC.Iso7816.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NFCReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PCSC/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LchYKEUOZ2eRFPopsBBUQ22AYleb8HMDJccsEx04eyltwI3NArqjSSClW4IXShztyNCiohedVbuqLpr79gvUxA==",
+      "path": "pcsc/6.2.0",
+      "hashPath": "pcsc.6.2.0.nupkg.sha512"
+    },
+    "PCSC.Iso7816/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZdTjOgFOQeRbay54DkIL3+rVYE1qb9kbYOos9svpSzToTsbdFDeRHXAz3ONtiArEWgMfJuJZRiUwSPAS/ygQng==",
+      "path": "pcsc.iso7816/6.2.0",
+      "hashPath": "pcsc.iso7816.6.2.0.nupkg.sha512"
+    }
+  }
+}
